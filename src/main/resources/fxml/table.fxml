@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="712.0" prefWidth="1079.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="779.0" fitWidth="1102.0" layoutX="-20.0" layoutY="-10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/main_backgroung.png" />
+         </image>
+      </ImageView>
+      <Pane prefHeight="724.0" prefWidth="78.0">
+         <children>
+            <ImageView fitHeight="724.0" fitWidth="108.0" layoutX="-4.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/panel.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="button_profile" layoutX="9.0" layoutY="10.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="56.0" style="-fx-background-color: transparent; -fx-cursor: hand; -fx-background-radius: 32;" />
+            <Button fx:id="button_all" layoutX="10.0" layoutY="73.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="56.0" style="-fx-background-color: transparent; -fx-cursor: hand; -fx-background-radius: 32;" />
+            <Button fx:id="button_info" layoutX="11.0" layoutY="578.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="56.0" style="-fx-background-color: transparent; -fx-cursor: hand; -fx-background-radius: 32;" />
+            <Button fx:id="button_exit" layoutX="10.0" layoutY="645.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="56.0" style="-fx-background-color: transparent; -fx-cursor: hand; -fx-background-radius: 32;" />
+         </children>
+      </Pane>
+      <TableView fx:id="table" layoutX="98.0" layoutY="81.0" prefHeight="550.0" prefWidth="949.0" stylesheets="@../css/table-view.css">
+         <columns>
+            <TableColumn fx:id="column_id" prefWidth="45.0" resizable="false" text="ID" />
+            <TableColumn fx:id="column_name" prefWidth="77.0" resizable="false" text="Name" />
+            <TableColumn fx:id="column_coordinates" prefWidth="89.342041015625" resizable="false" text="Coordinates" />
+            <TableColumn fx:id="column_location" prefWidth="88.0" resizable="false" text="Location" />
+            <TableColumn fx:id="column_creation" prefWidth="180.83944702148438" resizable="false" text="Creation time" />
+            <TableColumn fx:id="column_birthday" prefWidth="94.0" text="Birthday" />
+            <TableColumn fx:id="column_height" prefWidth="83.16058349609375" resizable="false" text="Height" />
+            <TableColumn fx:id="column_country" prefWidth="90.0" resizable="false" text="Country" />
+            <TableColumn fx:id="column_color" prefWidth="97.0" resizable="false" text="EyeColor" />
+            <TableColumn fx:id="column_creator" prefWidth="102.0" resizable="false" text="Creator" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

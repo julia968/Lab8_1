@@ -1,0 +1,28 @@
+CREATE TABLE coordinates(
+                            coordinates_id serial primary key NOT NULL,
+                            coordinate_x bigint NOT NULL,
+                            coordinate_y int NOT NULL
+)
+CREATE TABLE location(
+                   location_id serial primary key NOT NULL,
+                   location_x bigint NOT NULL,
+                   location_y float NOT NULL
+               )
+CREATE TABLE users(
+    user_name varchar primary key NOT NULL,
+    password varchar NOT NULL,
+    salt varchar NOT NULL
+)
+
+CREATE TABLE persons(
+    person_id serial primary key NOT NULL,
+    name varchar not null,
+    coordinates_id int REFERENCES coordinates (coordinates_id),
+    height bigint not null,
+    eye_color varchar not null,
+    country varchar not null,
+    location_id int REFERENCES location (location_id),
+    creation_time timestamp NOT NULL,
+    birthday_date date NOT NULL,
+    creator_name varchar REFERENCES users (user_name)
+)

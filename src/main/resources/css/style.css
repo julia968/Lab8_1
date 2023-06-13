@@ -1,0 +1,7 @@
+.submit-button {
+    -fx-background-color: #f820e3;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: #68034C;
+    -fx-cursor: HAND;
+}

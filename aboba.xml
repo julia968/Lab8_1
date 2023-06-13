@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<set>
+     <person>
+          <id>1</id>
+          <name>mama</name>
+          <height>123.0</height>
+          <eyeColor>BLACK</eyeColor>
+          <nationality>USA</nationality>
+          <coordinates>x: 1 y: 2</coordinates>
+          <location>x = 3 y = 4.0</location>
+          <creationDate>2023-05-04</creationDate>
+     </person>
+     <person>
+          <id>2</id>
+          <name>biba</name>
+          <height>123.0</height>
+          <eyeColor>BLACK</eyeColor>
+          <nationality>USA</nationality>
+          <coordinates>x: 1 y: 2</coordinates>
+          <location>x = 3 y = 4.0</location>
+          <creationDate>2023-05-04</creationDate>
+     </person>
+     <person>
+          <id>1</id>
+          <name>mama</name>
+          <height>123.0</height>
+          <eyeColor>BLACK</eyeColor>
+          <nationality>USA</nationality>
+          <coordinates>x: 1 y: 2</coordinates>
+          <location>x = 3 y = 4.0</location>
+          <creationDate>2023-05-04</creationDate>
+     </person>
+     <person>
+          <id>2</id>
+          <name>biba</name>
+          <height>123.0</height>
+          <eyeColor>BLACK</eyeColor>
+          <nationality>USA</nationality>
+          <coordinates>x: 1 y: 2</coordinates>
+          <location>x = 3 y = 4.0</location>
+          <creationDate>2023-05-04</creationDate>
+     </person>
+</set>
